@@ -226,7 +226,7 @@ body {
     background: #ffa500;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     position: fixed;
     height: 100%;
@@ -236,6 +236,7 @@ body {
     overflow: hidden;
     transition: 0.5s;
     padding-left: 20px;
+    transition: 0.5s;
 
 }
 
