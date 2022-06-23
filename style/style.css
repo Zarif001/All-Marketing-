@@ -234,10 +234,24 @@ body {
     padding: 30px;
     width: 100px;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 1s;
     padding-left: 20px;
     transition: 0.5s;
 
+}
+
+.aside-picture {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    z-index: 999;
+    display: none;
+}
+
+.aside-burger {
+    width: 60px;
 }
 
 .list-icon {
@@ -378,17 +392,21 @@ body {
         margin-top: 50px;
     }
 
-    .aside {
-        flex-direction: column;
-        align-items: center;
+    .aside-link {
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 0;
+        justify-content: center;
+
     }
 
-    .aside-link {
-        justify-content: center;
-        flex-wrap: wrap;
+    .aside-picture {
+        display: flex;
     }
 
 }
+
+
 
 @media(max-width:542px) {
     .aside-list {
